@@ -22,7 +22,7 @@ LIST OF FILES IN THIS DIRECTORY:
 ## Project Abstract
 
 The project applies classification techniques to satellite imagery to recognize damage from three types of natural disasters: Midwest Flooding, Socal Fire, and Hurricane Matthew. The model performs two main tasks:
-1. **Disaster Type Classification**: Classifying satellite images into one of two disaster types, flood and fire.
+1. **Disaster Type Classification**: Classifying satellite images into one of three disaster types: flood, hurricane, and fire.
 2. **Damage Severity Classification**: Assigning damage severity levels to images from Hurricane Matthew into four categories (0-3).
 
 The model achieved a mean accuracy of 0.97349 for disaster type classification and an F1 score of 0.5056 for damage severity recognition. Features used for the model include Sobel edge detection, Gabor filters, Local Binary Patterns (LBP), color intensity information, image dimensions, pixel proportions, histogram of oriented gradients, contour count, segment count, and Euler number.
